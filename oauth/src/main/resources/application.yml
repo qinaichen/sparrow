@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: oauth
+  profiles:
+    active: dev
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: Asia/Shanghai
+server:
+  port: 9001

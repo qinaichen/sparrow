@@ -1,2 +1,4 @@
 /.idea/
 /sparrow.iml
+/oauth/oauth.iml
+/oauth/target/

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: oauth
+  profiles:
+    active: dev
+
+server:
+  port: 9001

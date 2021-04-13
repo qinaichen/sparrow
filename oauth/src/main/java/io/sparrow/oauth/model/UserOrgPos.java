@@ -8,6 +8,8 @@ import javax.persistence.*;
 /**
  * 用户组织岗位关系信息
  */
+
+
 @Data
 @Entity
 @Table(name = "sys_user_org_pos")

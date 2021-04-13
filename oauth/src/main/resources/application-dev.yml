@@ -13,3 +13,6 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  thymeleaf:
+    cache: false
+    prefix: file:E:\code\java\sparrow\oauth\src\main\resources\templates\

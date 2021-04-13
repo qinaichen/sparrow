@@ -5,7 +5,7 @@ package io.sparrow.oauth.constant;
  */
 public class ManageType {
     /**
-     * 默认管理类型，表示直线型管理，某个组织能管理它下面的所有自组织
+     * 默认管理类型，表示直线型管理，某个组织能管理它下面的所有子组织
      */
     public static int DEFAULT_TYPE = 0;
 

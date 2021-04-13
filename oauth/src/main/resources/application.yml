@@ -3,6 +3,11 @@ spring:
     name: oauth
   profiles:
     active: dev
+  thymeleaf:
+    encoding: UTF-8
+    mode: HTML
+  session:
+    store-type: redis
 
 server:
   port: 9001

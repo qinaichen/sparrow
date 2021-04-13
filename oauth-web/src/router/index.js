@@ -6,9 +6,13 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: () => import('@/views/Home.vue')
-  },
+    name: 'Main',
+    component: () => import('@/views/Main.vue')
+  }, {
+    path: '/login',
+    name: 'Login',
+    component: () => import('@/views/common/Login')
+  }
 ]
 
 const router = new VueRouter({
@@ -16,5 +20,8 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes
 })
+
+
+
 
 export default router
